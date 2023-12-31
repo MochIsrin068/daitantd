@@ -1,5 +1,6 @@
 import { StoryFn, Meta } from "@storybook/react";
 import { InputSearch } from ".";
+// @ts-ignore
 import { AudioOutlined } from 'antd-component';
 
 export default {

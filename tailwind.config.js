@@ -3,15 +3,13 @@ module.exports = {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
-    // "./src/**/*..mdx", 
-    // "./src/**/*.stories.@(js|jsx|ts|tsx)"
   ],
   // Toggle dark-mode based on .dark class or data-mode="dark"
   darkMode: ['class', '[data-mode="dark"]'],
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("daisyui")],
   corePlugins: {
     preflight: false,
   }
